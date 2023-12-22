@@ -1,5 +1,6 @@
 ---
-permalink: /cv_at_dec2023.pdf
+layout: page
+permalink: /assets/pdf/cv.pdf
 title: CV
 nav: true
 newtab: true
