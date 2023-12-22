@@ -1,84 +1,63 @@
 ---
 ---
 
-@string{aps = {American Physical Society,}}
-
-@book{einstein1956investigations,
-  bibtex_show={true},
-  title={Investigations on the Theory of the Brownian Movement},
-  author={Einstein, Albert},
-  year={1956},
-  publisher={Courier Corporation},
-  preview={brownian-motion.gif}
+@inproceedings{costanzino2023iccv,
+    title = {Learning Depth Estimation for Transparent and Mirror Surfaces},
+    author = {Costanzino, Alex and Zama Ramirez, Pierluigi and Poggi, Matteo and Tosi, Fabio and Mattoccia, Stefano and Di Stefano, Luigi},
+    booktitle = {The IEEE International Conference on Computer Vision},
+    note = {ICCV},
+    month = {October},
+    year = {2023},
 }
 
-@article{einstein1950meaning,
-  abbr={AJP},
-  bibtex_show={true},
-  title={The meaning of relativity},
-  author={Einstein, Albert and Taub, AH},
-  journal={American Journal of Physics},
-  volume={18},
-  number={6},
-  pages={403--404},
-  year={1950},
-  publisher={American Association of Physics Teachers}
+@phdthesis{amslaurea26933,
+    title = {Mitigating non-Lambertian surfaces issues in Stereo Matching with Neural Radiance Fields},
+    author = {Alex Costanzino},
+    abstract = {Depth estimation from images has long been regarded as a preferable alternative compared to expensive and intrusive active sensors, such as LiDAR and ToF.
+                The topic has attracted the attention of an increasingly wide audience thanks to the great amount of application domains, such as autonomous driving, robotic navigation and 3D reconstruction. 
+
+                Among the various techniques employed for depth estimation, stereo matching is one of the most widespread, owing to its robustness, speed and simplicity in setup.
+                Recent developments has been aided by the abundance of annotated stereo images, which granted to deep learning the opportunity to thrive in a research area where deep networks can reach state-of-the-art sub-pixel precision in most cases.
+
+                Despite the recent findings, stereo matching still begets many open challenges, two among them being finding pixel correspondences in presence of objects that exhibits a non-Lambertian behaviour and processing high-resolution images.
+
+                Recently, a novel dataset named Booster, which contains high-resolution stereo pairs featuring a large collection of labeled non-Lambertian objects, has been released.
+                The work shown that training state-of-the-art deep neural network on such data improves the generalization capabilities of these networks also in presence of non-Lambertian surfaces.
+                Regardless being a further step to tackle the aforementioned challenge, Booster includes a rather small number of annotated images, and thus cannot satisfy the intensive training requirements of deep learning.
+
+                This thesis work aims to investigate novel view synthesis techniques to augment the Booster dataset, with ultimate goal of improving stereo matching reliability in presence of high-resolution images that displays non-Lambertian surfaces.},
+    url = {http://amslaurea.unibo.it/26933/},
+    keywords = {stereo matching, neural radiance fields, computer vision, computer graphics, non-lambertian surface, novel view synthesis, deep learning, raft, disparity, depth, machine learning, nerf, semi-global matching, sgm, triangulation, booster dataset, supervised learning},
+    year = {2022},
 }
 
-@article{PhysRev.47.777,
-  abbr={PhysRev},
-  title={Can Quantum-Mechanical Description of Physical Reality Be Considered Complete?},
-  author={Einstein, A. and Podolsky, B. and Rosen, N.},
-  abstract={In a complete theory there is an element corresponding to each element of reality. A sufficient condition for the reality of a physical quantity is the possibility of predicting it with certainty, without disturbing the system. In quantum mechanics in the case of two physical quantities described by non-commuting operators, the knowledge of one precludes the knowledge of the other. Then either (1) the description of reality given by the wave function in quantum mechanics is not complete or (2) these two quantities cannot have simultaneous reality. Consideration of the problem of making predictions concerning a system on the basis of measurements made on another system that had previously interacted with it leads to the result that if (1) is false then (2) is also false. One is thus led to conclude that the description of reality as given by a wave function is not complete.},
-  journal={Phys. Rev.},
-  volume={47},
-  issue={10},
-  pages={777--780},
-  numpages={0},
-  year={1935},
-  month={May},
-  publisher=aps,
-  doi={10.1103/PhysRev.47.777},
-  url={http://link.aps.org/doi/10.1103/PhysRev.47.777},
-  html={https://journals.aps.org/pr/abstract/10.1103/PhysRev.47.777},
-  pdf={example_pdf.pdf},
-  altmetric={248277},
-  dimensions={true},
-  selected={true}
+@InProceedings{Ramirez_2023_CVPR,
+    author    = {Ramirez, Pierluigi Zama and Tosi, Fabio and Di Stefano, Luigi and Timofte, Radu and Costanzino, Alex and Poggi, Matteo and Salti, Samuele and Mattoccia, Stefano and Shi, Jun and Zhang, Dafeng and A, Yong and Jin, Yixiang and Li, Dingzhe and Li, Chao and Liu, Zhiwen and Zhang, Qi and Wang, Yixing and Yin, Shi},
+    title     = {NTIRE 2023 Challenge on HR Depth From Images of Specular and Transparent Surfaces},
+    booktitle = {Proceedings of the IEEE/CVF Conference on Computer Vision and Pattern Recognition (CVPR) Workshops},
+    month     = {June},
+    year      = {2023},
+    pages     = {1384-1395}
 }
 
-@article{einstein1905molekularkinetischen,
-  title={{\"U}ber die von der molekularkinetischen Theorie der W{\"a}rme geforderte Bewegung von in ruhenden Fl{\"u}ssigkeiten suspendierten Teilchen},
-  author={Einstein, A.},
-  journal={Annalen der physik},
-  volume={322},
-  number={8},
-  pages={549--560},
-  year={1905},
-  publisher={Wiley Online Library}
+@ARTICLE {10278453,
+    author = {P. Ramirez and A. Costanzino and F. Tosi and M. Poggi and S. Salti and S. Mattoccia and L. Stefano},
+    journal = {IEEE Transactions on Pattern Analysis &amp; Machine Intelligence},
+    title = {Booster: A Benchmark for Depth From Images of Specular and Transparent Surfaces},
+    year = {2024},
+    volume = {46},
+    number = {01},
+    issn = {1939-3539},
+    pages = {85-102},
+    abstract = {Estimating depth from images nowadays yields outstanding results, both in terms of in-domain accuracy and generalization. However, we identify two main challenges that remain open in this field: dealing with non-Lambertian materials and effectively processing high-resolution images. Purposely, we propose a novel dataset that includes accurate and dense ground-truth labels at high resolution, featuring scenes containing several specular and transparent surfaces. Our acquisition pipeline leverages a novel deep space-time stereo framework, enabling easy and accurate labeling with sub-pixel precision. The dataset is composed of 606 samples collected in 85 different scenes, each sample includes both a high-resolution pair (12 Mpx) as well as an unbalanced stereo pair (Left: 12 Mpx, Right: 1.1 Mpx), typical of modern mobile devices that mount sensors with different resolutions. Additionally, we provide manually annotated material segmentation masks and 15 K unlabeled samples. The dataset is composed of a train set and two test sets, the latter devoted to the evaluation of stereo and monocular depth estimation networks. Our experiments highlight the open challenges and future research directions in this field.},
+    keywords = {cameras;benchmark testing;calibration;pipelines;estimation;image resolution;mirrors},
+    doi = {10.1109/TPAMI.2023.3323858},
+    publisher = {IEEE Computer Society},
+    address = {Los Alamitos, CA, USA},
+    month = {jan}
 }
 
-@article{einstein1905movement,
-  abbr={Ann. Phys.},
-  title={Un the movement of small particles suspended in statiunary liquids required by the molecular-kinetic theory 0f heat},
-  author={Einstein, A.},
-  journal={Ann. Phys.},
-  volume={17},
-  pages={549--560},
-  year={1905}
-}
 
-@article{einstein1905electrodynamics,
-  title={On the electrodynamics of moving bodies},
-  author={Einstein, A.},
-  year={1905}
-}
 
-@book{przibram1967letters,
-  bibtex_show={true},
-  title={Letters on wave mechanics},
-  author={Einstein, Albert and Schrödinger, Erwin and Planck, Max and Lorentz, Hendrik Antoon and Przibram, Karl},
-  year={1967},
-  publisher={Vision},
-  preview={wave-mechanics.gif}
-}
+
+
