@@ -2,11 +2,18 @@
 layout: page
 permalink: /teaching/
 title: Teaching
-description: Materials for courses you taught. Replace this text with your description.
+description: Materials available on https://virtuale.unibo.it/.
 nav: true
 nav_order: 2
 ---
 
-For now, this page is assumed to be a static description of your courses. You can convert it to a collection similar to `_projects/` so that you can have a dedicated page for each course.
+## Academic Year 2023-2024
 
-Organize your courses by years, topics, or universities, however you like!
+* Image Processing and Computer Vision M [91254]
+* Computer Vision and Image Processing M [73302]
+* Image Processing and Computer Vision M [69661]
+
+## Academic Year 2022-2023
+
+* Computer Vision and Image Processing M [73302]
+* Image Processing and Computer Vision M [69661]
