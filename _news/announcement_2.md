@@ -5,4 +5,4 @@ inline: true
 related_posts: false
 ---
 
-Our workshop <a href='https://cvlab-unibo.github.io/booster-web/ntire.html'>NTIRE 2023: HR Depth from Images of Specular and Transparent Surfaces</a> has been accepted at <b>CVPR2023</b>!
+Our workshop <a href='https://cvlab-unibo.github.io/booster-web/ntire.html'>NTIRE 2023: HR Depth from Images of Specular and Transparent Surfaces</a> has been accepted at <b>CVPRW2023</b>!
