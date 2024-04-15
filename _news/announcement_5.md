@@ -5,4 +5,4 @@ inline: true
 related_posts: false
 ---
 
-Our paper Test Time Training for Industrial Anomaly Segmentation has been accepted at <b>CVPRW2024</b>!
+Our paper <a href='https://arxiv.org/abs/2404.03743'>Test Time Training for Industrial Anomaly Segmentation</a> has been accepted at <b>CVPRW2024</b>!
