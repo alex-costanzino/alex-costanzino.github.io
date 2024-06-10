@@ -5,4 +5,4 @@ inline: true
 related_posts: false
 ---
 
-Our paper <a href='https://arxiv.org/pdf/2312.04521.pdf'>Multimodal Industrial Anomaly Detection by Crossmodal Feature Mapping</a> has been accepted at <b>CVPR2024</b>! Code available soon.
+Our paper <a href='https://arxiv.org/pdf/2312.04521.pdf'>Multimodal Industrial Anomaly Detection by Crossmodal Feature Mapping</a> has been accepted at <b>CVPR2024</b>! Code available  <a href='https://github.com/CVLAB-Unibo/crossmodal-feature-mapping'>here</a>.
