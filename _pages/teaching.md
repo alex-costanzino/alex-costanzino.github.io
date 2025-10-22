@@ -7,6 +7,16 @@ nav: true
 nav_order: 2
 ---
 
+## Academic Year 2025-2026
+
+* Image Processing and Computer Vision M [91254]
+* Computer Vision and Image Processing M [73302]
+* Image Processing and Computer Vision M [69661]
+
+## Academic Year 2024-2025
+
+* Image Processing and Computer Vision M [91254]
+
 ## Academic Year 2023-2024
 
 * Image Processing and Computer Vision M [91254]
