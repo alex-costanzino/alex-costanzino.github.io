@@ -1,130 +1,109 @@
 % Thesis.
 @phdthesis{amslaurea26933,
-    title = {Mitigating non-Lambertian surfaces issues in Stereo Matching with Neural Radiance Fields},
-    author = {Alex Costanzino},
-    abstract = {Depth estimation from images has long been regarded as a preferable alternative compared to expensive and intrusive active sensors, such as LiDAR and ToF.
-                The topic has attracted the attention of an increasingly wide audience thanks to the great amount of application domains, such as autonomous driving, robotic navigation and 3D reconstruction. 
-
-                Among the various techniques employed for depth estimation, stereo matching is one of the most widespread, owing to its robustness, speed and simplicity in setup.
-                Recent developments has been aided by the abundance of annotated stereo images, which granted to deep learning the opportunity to thrive in a research area where deep networks can reach state-of-the-art sub-pixel precision in most cases.
-
-                Despite the recent findings, stereo matching still begets many open challenges, two among them being finding pixel correspondences in presence of objects that exhibits a non-Lambertian behaviour and processing high-resolution images.
-
-                Recently, a novel dataset named Booster, which contains high-resolution stereo pairs featuring a large collection of labeled non-Lambertian objects, has been released.
-                The work shown that training state-of-the-art deep neural network on such data improves the generalization capabilities of these networks also in presence of non-Lambertian surfaces.
-                Regardless being a further step to tackle the aforementioned challenge, Booster includes a rather small number of annotated images, and thus cannot satisfy the intensive training requirements of deep learning.
-
-                This thesis work aims to investigate novel view synthesis techniques to augment the Booster dataset, with ultimate goal of improving stereo matching reliability in presence of high-resolution images that displays non-Lambertian surfaces.},
-    url = {http://amslaurea.unibo.it/26933/},
-    keywords = {stereo matching, neural radiance fields, computer vision, computer graphics, non-lambertian surface, novel view synthesis, deep learning, raft, disparity, depth, machine learning, nerf, semi-global matching, sgm, triangulation, booster dataset, supervised learning},
-    year = {2022},
+	title        = {Mitigating non-Lambertian surfaces issues in Stereo Matching with Neural Radiance Fields},
+	author       = {Alex Costanzino},
+	year         = 2022,
+	url          = {http://amslaurea.unibo.it/26933/},
+	abstract     = {Depth estimation from images has long been regarded as a preferable alternative compared to expensive and intrusive active sensors, such as LiDAR and ToF. The topic has attracted the attention of an increasingly wide audience thanks to the great amount of application domains, such as autonomous driving, robotic navigation and 3D reconstruction.
+                    Among the various techniques employed for depth estimation, stereo matching is one of the most widespread, owing to its robustness, speed and simplicity in setup. Recent developments has been aided by the abundance of annotated stereo images, which granted to deep learning the opportunity to thrive in a research area where deep networks can reach state-of-the-art sub-pixel precision in most cases.
+                    Despite the recent findings, stereo matching still begets many open challenges, two among them being finding pixel correspondences in presence of objects that exhibits a non-Lambertian behaviour and processing high-resolution images.
+                    Recently, a novel dataset named Booster, which contains high-resolution stereo pairs featuring a large collection of labeled non-Lambertian objects, has been released. The work shown that training state-of-the-art deep neural network on such data improves the generalization capabilities of these networks also in presence of non-Lambertian surfaces. Regardless being a further step to tackle the aforementioned challenge, Booster includes a rather small number of annotated images, and thus cannot satisfy the intensive training requirements of deep learning.
+                    This thesis work aims to investigate novel view synthesis techniques to augment the Booster dataset, with ultimate goal of improving stereo matching reliability in presence of high-resolution images that displays non-Lambertian surfaces.},
+	keywords     = {stereo matching, neural radiance fields, computer vision, computer graphics, non-lambertian surface, novel view synthesis, deep learning, raft, disparity, depth, machine learning, nerf, semi-global matching, sgm, triangulation, booster dataset, supervised learning}
 }
-
 % Main papers.
 @inproceedings{costanzino2023iccv,
-    title = {Learning Depth Estimation for Transparent and Mirror Surfaces},
-    author = {Costanzino, Alex and Zama Ramirez, Pierluigi and Poggi, Matteo and Tosi, Fabio and Mattoccia, Stefano and Di Stefano, Luigi},
-    booktitle = {The IEEE International Conference on Computer Vision (ICCV)},
-    month  = {October},
-    year = {2023},
+	title        = {Learning Depth Estimation for Transparent and Mirror Surfaces},
+	author       = {Costanzino, Alex and Zama Ramirez, Pierluigi and Poggi, Matteo and Tosi, Fabio and Mattoccia, Stefano and Di Stefano, Luigi},
+	year         = 2023,
+	month        = {October},
+	booktitle    = {The IEEE International Conference on Computer Vision (ICCV)}
 }
-
 @article{booster,
-    author = {P. Ramirez and A. Costanzino and F. Tosi and M. Poggi and S. Salti and S. Mattoccia and L. Stefano},
-    journal = {IEEE Transactions on Pattern Analysis &amp; Machine Intelligence},
-    title = {Booster: A Benchmark for Depth From Images of Specular and Transparent Surfaces},
-    year = {2024},
-    month = {December},
+	title        = {Booster: A Benchmark for Depth From Images of Specular and Transparent Surfaces},
+	author       = {P. Ramirez and A. Costanzino and F. Tosi and M. Poggi and S. Salti and S. Mattoccia and L. Stefano},
+	year         = 2024,
+	month        = {December},
+	journal      = {IEEE Transactions on Pattern Analysis &amp; Machine Intelligence}
 }
-
 @inproceedings{costanzino2024ttt4as,
-    title = {Test Time Training for Industrial Anomaly Segmentation},
-    author = {Costanzino, Alex and Zama Ramirez, Pierluigi and Del Moro, Mirko and Aiezzo, Agostino and Lisanti, Giuseppe and Salti, Samuele and Di Stefano, Luigi},
-    booktitle = {Proceedings of the IEEE/CVF Conference on Computer Vision and Pattern Recognition (CVPR) Workshops},
-    year = {2024},
-    month = {June},
+	title        = {Test Time Training for Industrial Anomaly Segmentation},
+	author       = {Costanzino, Alex and Zama Ramirez, Pierluigi and Del Moro, Mirko and Aiezzo, Agostino and Lisanti, Giuseppe and Salti, Samuele and Di Stefano, Luigi},
+	year         = 2024,
+	month        = {June},
+	booktitle    = {Proceedings of the IEEE/CVF Conference on Computer Vision and Pattern Recognition (CVPR) Workshops}
 }
 @inproceedings{costanzino2024cross,
-    title = {Multimodal Industrial Anomaly Detection by Crossmodal Feature Mapping},
-    author = {Costanzino, Alex and Zama Ramirez, Pierluigi and Lisanti, Giuseppe and Di Stefano, Luigi},
-    booktitle = {Proceedings of the IEEE/CVF Conference on Computer Vision and Pattern Recognition (CVPR)},
-    year = {2024},
-    month = {June},
+	title        = {Multimodal Industrial Anomaly Detection by Crossmodal Feature Mapping},
+	author       = {Costanzino, Alex and Zama Ramirez, Pierluigi and Lisanti, Giuseppe and Di Stefano, Luigi},
+	year         = 2024,
+	month        = {June},
+	booktitle    = {Proceedings of the IEEE/CVF Conference on Computer Vision and Pattern Recognition (CVPR)}
 }
-
 @article{costanzino2025learning2be,
-  author    = {Costanzino, Alex and Zama Ramirez, Pierluigi and Lisanti, Giuseppe, and Di Stefano, Luigi},
-  title     = {Learning to Be a Transformer to Pinpoint Anomalies},
-  journal   = {IEEE Access},
-  year      = {2025},
-  month     = {June}
+	title        = {Learning to Be a Transformer to Pinpoint Anomalies},
+	author       = {Costanzino, Alex and Zama Ramirez, Pierluigi and Lisanti, Giuseppe, and Di Stefano, Luigi},
+	year         = 2025,
+	month        = {June},
+	journal      = {IEEE Access}
 }
-
 @inproceedings{costanzino2025sim3d,
-  author    = {Costanzino, Alex and Zama Ramirez, Pierluigi and Lella, Luigi and Ragaglia, Matteo and Oliva, Alessandro and Lisanti, Giuseppe and Di Stefano, Luigi},
-  title     = {SiM3D: Single-instance Multiview Multimodal and Multisetup 3D Anomaly Detection Benchmark},
-  booktitle = {International Conference on Computer Vision (ICCV)},
-  year      = {2025},
-  month     = {October},
+	title        = {SiM3D: Single-instance Multiview Multimodal and Multisetup 3D Anomaly Detection Benchmark},
+	author       = {Costanzino, Alex and Zama Ramirez, Pierluigi and Lella, Luigi and Ragaglia, Matteo and Oliva, Alessandro and Lisanti, Giuseppe and Di Stefano, Luigi},
+	year         = 2025,
+	month        = {October},
+	booktitle    = {International Conference on Computer Vision (ICCV)}
 }
-
 @inproceedings{costanzino2025radar,
-  author    = {Costanzino, Alex and Bayliss, Woody and Sock, Juil and Gorriz Blanch, Marc and Horak, Danijela and Laptev, Ivan and Torr, Philip and Pizzati, Fabio},
-  title     = {Towards Reliable Identification of Diffusion-based Image Manipulations},
-  booktitle   = {The Thirty-Ninth Annual Conference on Neural Information Processing Systems (NeurIPS)},
-  year      = {2025},
-  month     = {December},
+	title        = {Towards Reliable Identification of Diffusion-based Image Manipulations},
+	author       = {Costanzino, Alex and Bayliss, Woody and Sock, Juil and Gorriz Blanch, Marc and Horak, Danijela and Laptev, Ivan and Torr, Philip and Pizzati, Fabio},
+	year         = 2025,
+	month        = {December},
+	booktitle    = {The Thirty-Ninth Annual Conference on Neural Information Processing Systems (NeurIPS)}
 }
-
-
 % Workshops.
 
 %%% NTIRE.
-@InProceedings{Ramirez_2023_CVPR,
-    author    = {Ramirez, Pierluigi Zama and Tosi, Fabio and Di Stefano, Luigi and Timofte, Radu and Costanzino, Alex and Poggi, Matteo and Salti, Samuele and Mattoccia, Stefano and Shi, Jun and Zhang, Dafeng and A, Yong and Jin, Yixiang and Li, Dingzhe and Li, Chao and Liu, Zhiwen and Zhang, Qi and Wang, Yixing and Yin, Shi},
-    title     = {NTIRE 2023 Challenge on HR Depth From Images of Specular and Transparent Surfaces},
-    booktitle = {Proceedings of the IEEE/CVF Conference on Computer Vision and Pattern Recognition (CVPR) Workshops},
-    month     = {June},
-    year      = {2023},
+@inproceedings{Ramirez_2023_CVPR,
+	title        = {NTIRE 2023 Challenge on HR Depth From Images of Specular and Transparent Surfaces},
+	author       = {Ramirez, Pierluigi Zama and Tosi, Fabio and Di Stefano, Luigi and Timofte, Radu and Costanzino, Alex and Poggi, Matteo and Salti, Samuele and Mattoccia, Stefano and Shi, Jun and Zhang, Dafeng and A, Yong and Jin, Yixiang and Li, Dingzhe and Li, Chao and Liu, Zhiwen and Zhang, Qi and Wang, Yixing and Yin, Shi},
+	year         = 2023,
+	month        = {June},
+	booktitle    = {Proceedings of the IEEE/CVF Conference on Computer Vision and Pattern Recognition (CVPR) Workshops}
 }
-
-@InProceedings{Ramirez_2024_CVPR,
-    author    = {Ramirez, Pierluigi Zama and Tosi, Fabio and Di Stefano, Luigi and Timofte, Radu and Costanzino, Alex and Poggi, Matteo and Salti, Samuele and Mattoccia, Stefano},
-    title     = {NTIRE 2024 Challenge on HR Depth From Images of Specular and Transparent Surfaces},
-    booktitle = {Proceedings of the IEEE/CVF Conference on Computer Vision and Pattern Recognition (CVPR) Workshops},
-    month     = {June},
-    year      = {2024},
+@inproceedings{Ramirez_2024_CVPR,
+	title        = {NTIRE 2024 Challenge on HR Depth From Images of Specular and Transparent Surfaces},
+	author       = {Ramirez, Pierluigi Zama and Tosi, Fabio and Di Stefano, Luigi and Timofte, Radu and Costanzino, Alex and Poggi, Matteo and Salti, Samuele and Mattoccia, Stefano},
+	year         = 2024,
+	month        = {June},
+	booktitle    = {Proceedings of the IEEE/CVF Conference on Computer Vision and Pattern Recognition (CVPR) Workshops}
 }
-
-@InProceedings{Ramirez_2025_CVPR,
-    author    = {Ramirez, Pierluigi Zama and Tosi, Fabio and Di Stefano, Luigi and Timofte, Radu and Costanzino, Alex and Poggi, Matteo and Salti, Samuele and Mattoccia, Stefano and Zhang, Zhe and Yang, Yang and Chen, Wu and Ming, Anlong and Zhao, Mingshuai and Yu, Mengying and Gao, Shida and Wang, Xiangfeng and Xue, Feng and Shi, Jun and Yang, Yong and A, Yong and Jin, Yixiang and Li, Dingzhe and Shukla, Aryan and Frija-Altarac, Liam and Toews, Matthew and Geng, Hui and Wan, Tianjiao and Gao, Zijian and Xu, Qisheng and Xu, Kele and Zang, Zijian and Babu, Jameer and Purohit, Kuldeep and Lavreniuk, Mykola and Cao, Jing and Li, Shenyi and Jiang, Kui and Jiang, Junjun and Huang, Yong},
-    title     = {NTIRE 2025 Challenge on HR Depth from Images of Specular and Transparent Surfaces},
-    booktitle = {Proceedings of the Computer Vision and Pattern Recognition Conference (CVPR) Workshops},
-    month     = {June},
-    year      = {2025},
+@inproceedings{Ramirez_2025_CVPR,
+	title        = {NTIRE 2025 Challenge on HR Depth from Images of Specular and Transparent Surfaces},
+	author       = {Ramirez, Pierluigi Zama and Tosi, Fabio and Di Stefano, Luigi and Timofte, Radu and Costanzino, Alex and Poggi, Matteo and Salti, Samuele and Mattoccia, Stefano and Zhang, Zhe and Yang, Yang and Chen, Wu and Ming, Anlong and Zhao, Mingshuai and Yu, Mengying and Gao, Shida and Wang, Xiangfeng and Xue, Feng and Shi, Jun and Yang, Yong and A, Yong and Jin, Yixiang and Li, Dingzhe and Shukla, Aryan and Frija-Altarac, Liam and Toews, Matthew and Geng, Hui and Wan, Tianjiao and Gao, Zijian and Xu, Qisheng and Xu, Kele and Zang, Zijian and Babu, Jameer and Purohit, Kuldeep and Lavreniuk, Mykola and Cao, Jing and Li, Shenyi and Jiang, Kui and Jiang, Junjun and Huang, Yong},
+	year         = 2025,
+	month        = {June},
+	booktitle    = {Proceedings of the Computer Vision and Pattern Recognition Conference (CVPR) Workshops}
 }
-
 %%% TRICKY.
 @inproceedings{zama2025tricky,
-    title     = {Tricky 2024 challenge on monocular depth from images of specular and transparent surfaces},
-    author    = {Zama Ramirez, Pierluigi and Costanzino, Alex and Tosi, Fabio and Poggi, Matteo and Di Stefano, Luigi and Weibel, Jean-Baptiste and Bauer, Dominik and Antensteiner, Doris and Vincze, Markus and Li, Jiaqi and others},
-    booktitle = {European Conference on Computer Vision (ECCV) Workshops},
-    year      = {2024},
-    month     = {October},
+	title        = {Tricky 2024 challenge on monocular depth from images of specular and transparent surfaces},
+	author       = {Zama Ramirez, Pierluigi and Costanzino, Alex and Tosi, Fabio and Poggi, Matteo and Di Stefano, Luigi and Weibel, Jean-Baptiste and Bauer, Dominik and Antensteiner, Doris and Vincze, Markus and Li, Jiaqi and others},
+	year         = 2024,
+	month        = {October},
+	booktitle    = {European Conference on Computer Vision (ECCV) Workshops}
 }
-
-@InProceedings{Ramirez_2025_ICCV,
-    author    = {Ramirez, Pierluigi Zama and Costanzino, Alex and Tosi, Fabio and Poggi, Matteo and Di Stefano, Luigi and Weibel, Jean-Baptiste and Antensteiner, Doris and Vincze, Markus and Busam, Benjamin and Zhai, Guangyao and Li, Weihang and Huang, Junwen and Jung, Hyunjun and Lavreniuk, Mykola and Sun, Pihai and Luo, Yijun and Wang, Hongtao and Gao, Manying and Jiang, Kui and Jiang, Junjun},
-    title     = {TRICKY 2025 Challenge on Monocular Depth from Images of Specular and Transparent Surfaces},
-    booktitle = {Proceedings of the IEEE/CVF International Conference on Computer Vision (ICCV) Workshops},
-    year      = {2025},
-    month     = {October},
+@inproceedings{Ramirez_2025_ICCV,
+	title        = {TRICKY 2025 Challenge on Monocular Depth from Images of Specular and Transparent Surfaces},
+	author       = {Ramirez, Pierluigi Zama and Costanzino, Alex and Tosi, Fabio and Poggi, Matteo and Di Stefano, Luigi and Weibel, Jean-Baptiste and Antensteiner, Doris and Vincze, Markus and Busam, Benjamin and Zhai, Guangyao and Li, Weihang and Huang, Junwen and Jung, Hyunjun and Lavreniuk, Mykola and Sun, Pihai and Luo, Yijun and Wang, Hongtao and Gao, Manying and Jiang, Kui and Jiang, Junjun},
+	year         = 2025,
+	month        = {October},
+	booktitle    = {Proceedings of the IEEE/CVF International Conference on Computer Vision (ICCV) Workshops}
 }
-
-@InProceedings{Li_2025_ICCV,
-    author    = {Li, Weihang and Huang, Junwen and Jung, HyunJun and Zhai, Guangyao and Ramirez, Pierluigi Zama and Costanzino, Alex and Tosi, Fabio and Poggi, Matteo and Di Stefano, Luigi and Weibel, Jean-Baptiste and Antensteiner, Doris and Vincze, Markus and He, Jing and Wang, Yiqing and Zhang, Kexin and Jiao, Licheng and Li, Lingling and Liu, Fang and Ma, Wenping and Busam, Benjamin},
-    title     = {TRICKY 2025 HouseCat6D Object Pose Estimation Challenge with Specular and Transparent Surfaces},
-    booktitle = {Proceedings of the IEEE/CVF International Conference on Computer Vision (ICCV) Workshops},
-    year      = {2025},
-    month     = {October},
+@inproceedings{Li_2025_ICCV,
+	title        = {TRICKY 2025 HouseCat6D Object Pose Estimation Challenge with Specular and Transparent Surfaces},
+	author       = {Li, Weihang and Huang, Junwen and Jung, HyunJun and Zhai, Guangyao and Ramirez, Pierluigi Zama and Costanzino, Alex and Tosi, Fabio and Poggi, Matteo and Di Stefano, Luigi and Weibel, Jean-Baptiste and Antensteiner, Doris and Vincze, Markus and He, Jing and Wang, Yiqing and Zhang, Kexin and Jiao, Licheng and Li, Lingling and Liu, Fang and Ma, Wenping and Busam, Benjamin},
+	year         = 2025,
+	month        = {October},
+	booktitle    = {Proceedings of the IEEE/CVF International Conference on Computer Vision (ICCV) Workshops}
 }
