@@ -660,12 +660,15 @@ footer.sticky-bottom {
 
     li {
       margin-bottom: 1rem;
+      overflow: auto;
 
       .preview {
         width: 250px;
         height: auto;
+        float: left;
+        margin-right: 20px;
+        margin-bottom: 15px;
       }
-
       .abbr {
         height: 2rem;
         margin-bottom: 0.5rem;
