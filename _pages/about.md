@@ -18,6 +18,6 @@ I got a BSc degree in Automation Engineering in 2020 - from the University of Bo
 
 Then, I got an MSc degree in Artificial Intelligence in 2022 - from the University of Bologna - with a <a href='https://amslaurea.unibo.it/26933/'>thesis work</a> on the mitigation of non-Lambertian surfaces issues that arise in Stereo Matching, by employing Neural Radiance Fields.
 
-Finally, I got a PhD in Computer Vision in 2025 - from the University of Bologna - with a thesis titled Neural Understanding of Objects and Materials.
+Finally, I got a PhD in Computer Science and Engineering in 2025 - from the University of Bologna - with a thesis titled Neural Understanding of Objects and Materials.
 
 My current research activity focuses on Artificial Intelligence and Deep Learning techniques for Computer Vision.
