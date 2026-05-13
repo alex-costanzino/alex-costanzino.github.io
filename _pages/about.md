@@ -2,7 +2,7 @@
 layout: about
 title: About
 permalink: /
-subtitle: PhD Student and Teaching Assistant @ <a href='https://www.unibo.it/sitoweb/alex.costanzino'>Alma Mater Studiorum, University of Bologna</a>.
+subtitle: Postdoctoral Researcher and Teaching Assistant @ <a href='https://www.unibo.it/sitoweb/alex.costanzino'>Alma Mater Studiorum, University of Bologna</a>.
 
 profile:
   align: right
@@ -18,4 +18,6 @@ I got a BSc degree in Automation Engineering in 2020 - from the University of Bo
 
 Then, I got an MSc degree in Artificial Intelligence in 2022 - from the University of Bologna - with a <a href='https://amslaurea.unibo.it/26933/'>thesis work</a> on the mitigation of non-Lambertian surfaces issues that arise in Stereo Matching, by employing Neural Radiance Fields.
 
-At the moment, I am pursuing a PhD in Computer Vision at University of Bologna. My current research activity focuses on Artificial Intelligence and Deep Learning techniques for Computer Vision, in particular for Depth Estimation, Novel View Synthesis and 3D Anomaly Detection & Segmentation. 
+Finally, I got a PhD in Computer Vision in 2025 - from the University of Bologna - with a thesis titled Neural Understanding of Objects and Materials.
+
+My current research activity focuses on Artificial Intelligence and Deep Learning techniques for Computer Vision.
