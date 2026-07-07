@@ -5,4 +5,4 @@ inline: true
 related_posts: false
 ---
 
-Our paper <a href=''>Modulate-and-Map: Crossmodal Feature Mapping with Cross-View Modulation for 3D Anomaly Detection</a> has been accepted at <b>CVPR Findingd 2026</b>! More on the <a href='https://alex-costanzino.github.io/modmap/'>project page</a>.
+Our paper <a href=''>Modulate-and-Map: Crossmodal Feature Mapping with Cross-View Modulation for 3D Anomaly Detection</a> has been accepted at <b>CVPR Findings 2026</b>! More on the <a href='https://alex-costanzino.github.io/modmap/'>project page</a>.
