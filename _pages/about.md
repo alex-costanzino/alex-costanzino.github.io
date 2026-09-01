@@ -2,7 +2,7 @@
 layout: about
 title: About
 permalink: /
-subtitle: Postdoctoral Researcher and Teaching Assistant @ <a href='https://www.unibo.it/sitoweb/alex.costanzino'>Alma Mater Studiorum, University of Bologna</a>.
+subtitle: Postdoctoral Researcher @ <a href='https://www.uni-bonn.de/en/home'>University of Bonn</a> and Teaching Assistant @ <a href='https://www.unibo.it/sitoweb/alex.costanzino'>Alma Mater Studiorum, University of Bologna</a>.
 
 profile:
   align: right
