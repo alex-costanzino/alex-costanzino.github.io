@@ -5,4 +5,4 @@ inline: true
 related_posts: false
 ---
 
-Our workshop <a href=''>Transparent & Reflective objects In the wild Challenges (TRICKY)</a> has been accepted at <b>ECCVW2024</b>! More info on the <a href='https://sites.google.com/view/eccv24-tricky-workshop/'>website</a>.
+Our workshop <a href=''>Transparent & Reflective objects In the wild Challenges (TRICKY)</a> has been accepted at <b>ECCVW 2024</b>! More info on the <a href='https://sites.google.com/view/eccv24-tricky-workshop/'>website</a>.

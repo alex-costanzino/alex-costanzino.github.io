@@ -5,4 +5,4 @@ inline: true
 related_posts: false
 ---
 
-Our paper <a href=''>Towards Reliable Identification of Diffusion-based Image Manipulations</a> has been accepted at <b>NIPS2025</b>! Check out the <a href='https://alex-costanzino.github.io/radar/'>project page</a>.
+Our paper <a href=''>Towards Reliable Identification of Diffusion-based Image Manipulations</a> has been accepted at <b>NeurIPS 2025</b>! Check out the <a href='https://alex-costanzino.github.io/radar/'>project page</a>.

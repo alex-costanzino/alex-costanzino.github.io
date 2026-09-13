@@ -5,4 +5,4 @@ inline: true
 related_posts: false
 ---
 
-Our paper <a href='https://cvlab-unibo.github.io/Depth4ToM/'>Learning Depth Estimation for Transparent and Mirror Surfaces</a> has been accepted at <b>ICCV2023</b>!
+Our paper <a href='https://cvlab-unibo.github.io/Depth4ToM/'>Learning Depth Estimation for Transparent and Mirror Surfaces</a> has been accepted at <b>ICCV 2023</b>!
