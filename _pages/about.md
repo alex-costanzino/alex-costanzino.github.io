@@ -22,4 +22,4 @@ In 2025, I received my PhD in Computer Science and Engineering from the Universi
 
 I am currently a postdoctoral researcher in the <a href='https://pages.iai.uni-bonn.de/gall_juergen/'>Computer Vision Group</a> at the University of Bonn, led by Jürgen Gall, and a member of the <a href='https://lamarr-institute.org/'>Lamarr Institute for Machine Learning and Artificial Intelligence</a>. Previously, I was a postdoctoral researcher at the Computer Vision Lab at the University of Bologna.
 
-My research focuses on Artificial Intelligence and Deep Learning techniques for Computer Vision.
+My research lies at the intersection of Computer Vision and Machine Learning, with a broad interest in developing intelligent systems capable of understanding and reasoning about the visual world.
