@@ -20,6 +20,6 @@ I then received my MSc degree in Artificial Intelligence from the University of 
 
 In 2025, I received my PhD in Computer Science and Engineering from the University of Bologna, under the supervision of Luigi Di Stefano, with a <a href='https://amsdottorato.unibo.it/id/eprint/12659/'>thesis</a> titled <i>Neural Understanding of Objects and Materials</i>.
 
-I am currently a postdoctoral researcher in the <a href='https://pages.iai.uni-bonn.de/gall_juergen/'>Computer Vision Group</a> at the University of Bonn, led by Jürgen Gall, and a member of the <a href='https://lamarr-institute.org/'>Lamarr Institute for Machine Learning and Artificial Intelligence</a>. Previously, I was a postdoctoral researcher at the Computer Vision Lab at the University of Bologna.
+I am currently a postdoctoral researcher in the <a href='https://pages.iai.uni-bonn.de/gall_juergen/'>Computer Vision Group</a> at the University of Bonn, led by Jürgen Gall, and a member of the <a href='https://lamarr-institute.org/'>Lamarr Institute for Machine Learning and Artificial Intelligence</a>. Previously, I was a postdoctoral researcher at the <a href='https://cvlab.unibo.it/'>Computer Vision Laboratory</a> at the University of Bologna.
 
 My research lies at the intersection of Computer Vision and Machine Learning, with a broad interest in developing intelligent systems capable of understanding and reasoning about the visual world.
