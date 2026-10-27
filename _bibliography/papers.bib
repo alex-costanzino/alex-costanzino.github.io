@@ -1,8 +1,12 @@
-% Thesis.
-@phdthesis{amslaurea26933,
+% ============================================================
+% Theses
+% ============================================================
+
+@mastersthesis{costanzino2022msc,
 	title        = {Mitigating non-Lambertian surfaces issues in Stereo Matching with Neural Radiance Fields},
-	author       = {Alex Costanzino},
-	year         = 2022,
+	author       = {Costanzino, Alex},
+	year         = {2022},
+	school       = {Alma Mater Studiorum -- University of Bologna},
 	url          = {http://amslaurea.unibo.it/26933/},
 	abstract     = {Depth estimation from images has long been regarded as a preferable alternative compared to expensive and intrusive active sensors, such as LiDAR and ToF. The topic has attracted the attention of an increasingly wide audience thanks to the great amount of application domains, such as autonomous driving, robotic navigation and 3D reconstruction.
                     Among the various techniques employed for depth estimation, stereo matching is one of the most widespread, owing to its robustness, speed and simplicity in setup. Recent developments has been aided by the abundance of annotated stereo images, which granted to deep learning the opportunity to thrive in a research area where deep networks can reach state-of-the-art sub-pixel precision in most cases.
@@ -10,157 +14,212 @@
                     Recently, a novel dataset named Booster, which contains high-resolution stereo pairs featuring a large collection of labeled non-Lambertian objects, has been released. The work shown that training state-of-the-art deep neural network on such data improves the generalization capabilities of these networks also in presence of non-Lambertian surfaces. Regardless being a further step to tackle the aforementioned challenge, Booster includes a rather small number of annotated images, and thus cannot satisfy the intensive training requirements of deep learning.
                     This thesis work aims to investigate novel view synthesis techniques to augment the Booster dataset, with ultimate goal of improving stereo matching reliability in presence of high-resolution images that displays non-Lambertian surfaces.},
 	keywords     = {stereo matching, neural radiance fields, computer vision, computer graphics, non-lambertian surface, novel view synthesis, deep learning, raft, disparity, depth, machine learning, nerf, semi-global matching, sgm, triangulation, booster dataset, supervised learning},
-    preview      = {thesis-preview.png}
+	preview      = {thesis-preview.png}
 }
 
-% Thesis.
-@phdthesis{amslaurea26933,
+@phdthesis{costanzino2026phd,
 	title        = {Neural Understanding of Objects and Materials},
-	author       = {Alex Costanzino},
-	year         = 2026,
+	author       = {Costanzino, Alex},
+	year         = {2026},
+	school       = {Alma Mater Studiorum -- University of Bologna},
 	url          = {https://amsdottorato.unibo.it/id/eprint/12659/},
-	abstract     = {This Thesis addresses fundamental challenges in neural understanding of objects and materials through three research domains: depth estimation for non-Lambertian surfaces, anomaly detection and segmentation in advanced industrial settings, and modern image forgery detection and localisation in the era of sophisticated generative models. 
-					The work demonstrates that effective visual understanding in complex real-world scenarios requires specialised methodological approaches that explicitly account for domain-specific challenges rather than relying on general-purpose solutions. 
-					The first part of this research tackles the long-standing challenge of accurate depth estimation for non-Lambertian surfaces that violate fundamental assumptions underlying traditional computer vision methods. 
-					A novel benchmarking framework and a learning-based approach are developed that enable robust geometric perception for optically complex materials through innovative training strategies and comprehensive evaluation methodologies. 
-					In the second part, the Thesis introduces methodological innovations that address fundamental limitations in existing unsupervised approaches for industrial anomaly detection and segmentation. 
-					Crossmodal feature mapping paradigms, test-time training strategies, and lightweight architectures are developed to enable practical deployment while achieving superior performance across diverse industrial inspection scenarios. 
-					Finally, the introduction of a comprehensive multiview multimodal benchmark reveals significant gaps in current algorithms while establishing an evaluation framework for future progress. 
-					Finally, in the third part, contemporary challenges posed by sophisticated diffusion-based manipulation techniques are addressed in the context of image forgery detection and localisation. 
-					Foundation model features are combined with multimodal information fusion strategies to achieve reliable identification of high-quality image manipulations, demonstrating how principles developed in anomaly detection can be adapted to distinguish authentic from manipulated digital content. 
-					The thesis unifies three research domains through shared methodological principles. Specialised learning consistently outperforms general approaches, with multimodal fusion and computational efficiency guiding robust, practical designs. 
-					Contributions include novel algorithms, datasets, training strategies, and evaluation frameworks, validated through extensive experiments establishing effectiveness and exposing future research.},
-    preview      =  {phd-thesis-preview.png}
+	abstract     = {This Thesis addresses fundamental challenges in neural understanding of objects and materials through three research domains: depth estimation for non-Lambertian surfaces, anomaly detection and segmentation in advanced industrial settings, and modern image forgery detection and localisation in the era of sophisticated generative models.
+                    The work demonstrates that effective visual understanding in complex real-world scenarios requires specialised methodological approaches that explicitly account for domain-specific challenges rather than relying on general-purpose solutions.
+                    The first part of this research tackles the long-standing challenge of accurate depth estimation for non-Lambertian surfaces that violate fundamental assumptions underlying traditional computer vision methods.
+                    A novel benchmarking framework and a learning-based approach are developed that enable robust geometric perception for optically complex materials through innovative training strategies and comprehensive evaluation methodologies.
+                    In the second part, the Thesis introduces methodological innovations that address fundamental limitations in existing unsupervised approaches for industrial anomaly detection and segmentation.
+                    Crossmodal feature mapping paradigms, test-time training strategies, and lightweight architectures are developed to enable practical deployment while achieving superior performance across diverse industrial inspection scenarios.
+                    Finally, the introduction of a comprehensive multiview multimodal benchmark reveals significant gaps in current algorithms while establishing an evaluation framework for future progress.
+                    Finally, in the third part, contemporary challenges posed by sophisticated diffusion-based manipulation techniques are addressed in the context of image forgery detection and localisation.
+                    Foundation model features are combined with multimodal information fusion strategies to achieve reliable identification of high-quality image manipulations, demonstrating how principles developed in anomaly detection can be adapted to distinguish authentic from manipulated digital content.
+                    The thesis unifies three research domains through shared methodological principles. Specialised learning consistently outperforms general approaches, with multimodal fusion and computational efficiency guiding robust, practical designs.
+                    Contributions include novel algorithms, datasets, training strategies, and evaluation frameworks, validated through extensive experiments establishing effectiveness and exposing future research.},
+	preview      = {phd-thesis-preview.png}
 }
 
-% Main papers.
+
+% ============================================================
+% Main papers
+% ============================================================
+
 @inproceedings{costanzino2023iccv,
 	title        = {Learning Depth Estimation for Transparent and Mirror Surfaces},
 	author       = {Costanzino, Alex and Zama Ramirez, Pierluigi and Poggi, Matteo and Tosi, Fabio and Mattoccia, Stefano and Di Stefano, Luigi},
-	year         = 2023,
+	year         = {2023},
 	month        = {October},
-	booktitle    = {The IEEE International Conference on Computer Vision (ICCV)},
-    preview      = {d4t-preview.png}
+	booktitle    = {Proceedings of the IEEE/CVF International Conference on Computer Vision (ICCV)},
+	pages        = {9210--9221},
+	preview      = {d4t-preview.png}
 }
+
 @article{booster,
 	title        = {Booster: A Benchmark for Depth From Images of Specular and Transparent Surfaces},
-	author       = {P. Ramirez and A. Costanzino and F. Tosi and M. Poggi and S. Salti and S. Mattoccia and L. Stefano},
-	year         = 2024,
-	month        = {December},
-	journal      = {IEEE Transactions on Pattern Analysis &amp; Machine Intelligence},
-    preview      = {ntire-preview.png}
+	author       = {Zama Ramirez, Pierluigi and Costanzino, Alex and Tosi, Fabio and Poggi, Matteo and Salti, Samuele and Mattoccia, Stefano and Di Stefano, Luigi},
+	year         = {2024},
+	month        = {January},
+	journal      = {IEEE Transactions on Pattern Analysis and Machine Intelligence},
+	volume       = {46},
+	number       = {1},
+	pages        = {85--102},
+	doi          = {10.1109/TPAMI.2023.3323858},
+	preview      = {ntire-preview.png}
 }
+
 @inproceedings{costanzino2024ttt4as,
 	title        = {Test Time Training for Industrial Anomaly Segmentation},
 	author       = {Costanzino, Alex and Zama Ramirez, Pierluigi and Del Moro, Mirko and Aiezzo, Agostino and Lisanti, Giuseppe and Salti, Samuele and Di Stefano, Luigi},
-	year         = 2024,
+	year         = {2024},
 	month        = {June},
 	booktitle    = {Proceedings of the IEEE/CVF Conference on Computer Vision and Pattern Recognition (CVPR) Workshops},
-    preview      = {tta.png}
+	pages        = {3910--3920},
+	preview      = {tta.png}
 }
+
 @inproceedings{costanzino2024cross,
 	title        = {Multimodal Industrial Anomaly Detection by Crossmodal Feature Mapping},
 	author       = {Costanzino, Alex and Zama Ramirez, Pierluigi and Lisanti, Giuseppe and Di Stefano, Luigi},
-	year         = 2024,
+	year         = {2024},
 	month        = {June},
 	booktitle    = {Proceedings of the IEEE/CVF Conference on Computer Vision and Pattern Recognition (CVPR)},
-    preview      = {cfm.jpg}
+	pages        = {17234--17243},
+	preview      = {cfm.jpg}
 }
+
 @article{costanzino2025learning2be,
 	title        = {Learning to Be a Transformer to Pinpoint Anomalies},
-	author       = {Costanzino, Alex and Zama Ramirez, Pierluigi and Lisanti, Giuseppe, and Di Stefano, Luigi},
-	year         = 2025,
+	author       = {Costanzino, Alex and Zama Ramirez, Pierluigi and Lisanti, Giuseppe and Di Stefano, Luigi},
+	year         = {2025},
 	month        = {June},
 	journal      = {IEEE Access},
-    preview      = {l2bt.png}
+	volume       = {13},
+	pages        = {109624--109637},
+	preview      = {l2bt.png}
 }
+
 @inproceedings{costanzino2025sim3d,
 	title        = {SiM3D: Single-instance Multiview Multimodal and Multisetup 3D Anomaly Detection Benchmark},
 	author       = {Costanzino, Alex and Zama Ramirez, Pierluigi and Lella, Luigi and Ragaglia, Matteo and Oliva, Alessandro and Lisanti, Giuseppe and Di Stefano, Luigi},
-	year         = 2025,
+	year         = {2025},
 	month        = {October},
-	booktitle    = {International Conference on Computer Vision (ICCV)},
-    preview      = {sim3d.jpg}
-
+	booktitle    = {Proceedings of the IEEE/CVF International Conference on Computer Vision (ICCV)},
+	pages        = {20944--20953},
+	preview      = {sim3d.jpg}
 }
+
 @inproceedings{costanzino2025radar,
 	title        = {Towards Reliable Identification of Diffusion-based Image Manipulations},
 	author       = {Costanzino, Alex and Bayliss, Woody and Sock, Juil and Gorriz Blanch, Marc and Horak, Danijela and Laptev, Ivan and Torr, Philip and Pizzati, Fabio},
-	year         = 2025,
+	year         = {2025},
 	month        = {December},
-	booktitle    = {The Thirty-Ninth Annual Conference on Neural Information Processing Systems (NeurIPS)},
-    preview      = {radar.jpg}
+	booktitle    = {Advances in Neural Information Processing Systems 38 (NeurIPS 2025)},
+	preview      = {radar.jpg}
 }
 
 @inproceedings{costanzino2026modmap,
 	title        = {Modulate-and-Map: Crossmodal Feature Mapping with Cross-View Modulation for 3D Anomaly Detection},
 	author       = {Costanzino, Alex and Zama Ramirez, Pierluigi and Lisanti, Giuseppe and Di Stefano, Luigi},
-	year         = 2026,
+	year         = {2026},
 	month        = {June},
 	booktitle    = {Proceedings of the IEEE/CVF Conference on Computer Vision and Pattern Recognition (CVPR) Findings},
-    preview      = {modmap.png}
+	pages        = {8816--8825},
+	preview      = {modmap.png}
 }
 
-@article{costanzino2026fdho,
-	author       = {Costanzino, Alex and Zama Ramirez, Pierluigi and Lisanti, Giuseppe and Di Stefano, Luigi},
+@inproceedings{costanzino2026fdho,
 	title        = {Spectral Gating via Damped Oscillations for Adaptive Implicit Neural Representations},
-	journal      = {The European Conference on Computer Vision (ECCV)},
-	month        = {September},
+	author       = {Costanzino, Alex and Zama Ramirez, Pierluigi and Lisanti, Giuseppe and Di Stefano, Luigi},
 	year         = {2026},
+	month        = {September},
+	booktitle    = {Computer Vision -- ECCV 2026},
+	series       = {Lecture Notes in Computer Science},
+	volume       = {17016},
+	pages        = {447--463},
+	publisher    = {Springer},
+	note         = {Spotlight Oral},
 	preview      = {fdho-preview.png}
 }
 
 @inproceedings{fusconi2027benchmarking,
-  title     = {Benchmarking Learnable Representations for Gigapixel Image Compression and Super-Resolution},
-  author    = {Fusconi, Matteo and Costanzino, Alex and Zama Ramirez, Pierluigi and Di Stefano, Luigi},
-  booktitle = {Proceedings of the IEEE/CVF Winter Conference on Applications of Computer Vision (WACV)},
-  year      = {2027},
-  preview   = {gigabench-preview.png}
+	title        = {Benchmarking Learnable Representations for Gigapixel Image Compression and Super-Resolution},
+	author       = {Fusconi, Matteo and Costanzino, Alex and Zama Ramirez, Pierluigi and Di Stefano, Luigi},
+	booktitle    = {Proceedings of the IEEE/CVF Winter Conference on Applications of Computer Vision (WACV)},
+	year         = {2027},
+	preview      = {gigabench-preview.png}
 }
 
-% Workshops.
 
-%%% NTIRE.
+% ============================================================
+% Workshops
+% ============================================================
+
+% ------------------------------------------------------------
+% NTIRE
+% ------------------------------------------------------------
+
 @inproceedings{Ramirez_2023_CVPR,
 	title        = {NTIRE 2023 Challenge on HR Depth From Images of Specular and Transparent Surfaces},
 	author       = {Ramirez, Pierluigi Zama and Tosi, Fabio and Di Stefano, Luigi and Timofte, Radu and Costanzino, Alex and Poggi, Matteo and Salti, Samuele and Mattoccia, Stefano and Shi, Jun and Zhang, Dafeng and A, Yong and Jin, Yixiang and Li, Dingzhe and Li, Chao and Liu, Zhiwen and Zhang, Qi and Wang, Yixing and Yin, Shi},
-	year         = 2023,
+	year         = {2023},
 	month        = {June},
-	booktitle    = {Proceedings of the IEEE/CVF Conference on Computer Vision and Pattern Recognition (CVPR) Workshops}
+	booktitle    = {Proceedings of the IEEE/CVF Conference on Computer Vision and Pattern Recognition (CVPR) Workshops},
+	pages        = {1384--1395}
 }
+
 @inproceedings{Ramirez_2024_CVPR,
 	title        = {NTIRE 2024 Challenge on HR Depth From Images of Specular and Transparent Surfaces},
 	author       = {Ramirez, Pierluigi Zama and Tosi, Fabio and Di Stefano, Luigi and Timofte, Radu and Costanzino, Alex and Poggi, Matteo and Salti, Samuele and Mattoccia, Stefano},
-	year         = 2024,
+	year         = {2024},
 	month        = {June},
-	booktitle    = {Proceedings of the IEEE/CVF Conference on Computer Vision and Pattern Recognition (CVPR) Workshops}
+	booktitle    = {Proceedings of the IEEE/CVF Conference on Computer Vision and Pattern Recognition (CVPR) Workshops},
+	pages        = {6499--6512}
 }
+
 @inproceedings{Ramirez_2025_CVPR,
 	title        = {NTIRE 2025 Challenge on HR Depth from Images of Specular and Transparent Surfaces},
 	author       = {Ramirez, Pierluigi Zama and Tosi, Fabio and Di Stefano, Luigi and Timofte, Radu and Costanzino, Alex and Poggi, Matteo and Salti, Samuele and Mattoccia, Stefano and Zhang, Zhe and Yang, Yang and Chen, Wu and Ming, Anlong and Zhao, Mingshuai and Yu, Mengying and Gao, Shida and Wang, Xiangfeng and Xue, Feng and Shi, Jun and Yang, Yong and A, Yong and Jin, Yixiang and Li, Dingzhe and Shukla, Aryan and Frija-Altarac, Liam and Toews, Matthew and Geng, Hui and Wan, Tianjiao and Gao, Zijian and Xu, Qisheng and Xu, Kele and Zang, Zijian and Babu, Jameer and Purohit, Kuldeep and Lavreniuk, Mykola and Cao, Jing and Li, Shenyi and Jiang, Kui and Jiang, Junjun and Huang, Yong},
-	year         = 2025,
+	year         = {2025},
 	month        = {June},
-	booktitle    = {Proceedings of the IEEE/CVF Conference on Computer Vision and Pattern Recognition (CVPR) Workshops}
+	booktitle    = {Proceedings of the IEEE/CVF Conference on Computer Vision and Pattern Recognition (CVPR) Workshops},
+	pages        = {987--1001}
 }
-%%% TRICKY.
+
+@inproceedings{Ramirez_2026_CVPR,
+	title        = {NTIRE 2026 Challenge on High-Resolution Depth of non-Lambertian Surfaces},
+	author       = {Zama Ramirez, Pierluigi and Tosi, Fabio and Di Stefano, Luigi and Timofte, Radu and Costanzino, Alex and Poggi, Matteo and Salti, Samuele and Mattoccia, Stefano and Min, Junhong and Tu, Jiachen and Xu, Guoyi and Jiang, Yaoxin and Liu, Jiajia and Shi, Yaokun and Zuo, Zuolingling and Guan, Zhihao and Yang, Yang and Lavreniuk, Mykola and Li, Xinglin and Cao, Jing and Zhang, Zihao and Liu, Shiyu and Jiang, Kui and Yan, Qianming and Wang, Ziyi and Zha, Peishuai and Kumawat, Divyanshu and Singh, Anshika and Yadav, Utkarsh and Dhindsa, Karanbir Singh and Jakhetiya, Vinit and Tian, Jiajun and Kwon, Junhyeong and Oh, Youngjin and Cho, Nam Ik and Ibrahem, Hatem and Salem, Ahmed and Kang, Hyun-Soo and Wang, Guanghui},
+	year         = {2026},
+	month        = {June},
+	booktitle    = {Proceedings of the IEEE/CVF Conference on Computer Vision and Pattern Recognition (CVPR) Workshops},
+	pages        = {2786--2801}
+}
+
+
+% ------------------------------------------------------------
+% TRICKY
+% ------------------------------------------------------------
+
 @inproceedings{zama2025tricky,
 	title        = {Tricky 2024 challenge on monocular depth from images of specular and transparent surfaces},
 	author       = {Zama Ramirez, Pierluigi and Costanzino, Alex and Tosi, Fabio and Poggi, Matteo and Di Stefano, Luigi and Weibel, Jean-Baptiste and Bauer, Dominik and Antensteiner, Doris and Vincze, Markus and Li, Jiaqi and others},
-	year         = 2024,
+	year         = {2024},
 	month        = {October},
-	booktitle    = {Proceedings of the European Conference on Computer Vision (ECCV) Workshops}
+	booktitle    = {Proceedings of the European Conference on Computer Vision (ECCV) Workshops},
+	pages        = {248--266}
 }
+
 @inproceedings{Ramirez_2025_ICCV,
 	title        = {TRICKY 2025 Challenge on Monocular Depth from Images of Specular and Transparent Surfaces},
 	author       = {Ramirez, Pierluigi Zama and Costanzino, Alex and Tosi, Fabio and Poggi, Matteo and Di Stefano, Luigi and Weibel, Jean-Baptiste and Antensteiner, Doris and Vincze, Markus and Busam, Benjamin and Zhai, Guangyao and Li, Weihang and Huang, Junwen and Jung, Hyunjun and Lavreniuk, Mykola and Sun, Pihai and Luo, Yijun and Wang, Hongtao and Gao, Manying and Jiang, Kui and Jiang, Junjun},
-	year         = 2025,
+	year         = {2025},
 	month        = {October},
-	booktitle    = {Proceedings of the IEEE/CVF International Conference on Computer Vision (ICCV) Workshops}
+	booktitle    = {Proceedings of the IEEE/CVF International Conference on Computer Vision (ICCV) Workshops},
+	pages        = {3311--3322}
 }
+
 @inproceedings{Li_2025_ICCV,
 	title        = {TRICKY 2025 HouseCat6D Object Pose Estimation Challenge with Specular and Transparent Surfaces},
 	author       = {Li, Weihang and Huang, Junwen and Jung, HyunJun and Zhai, Guangyao and Ramirez, Pierluigi Zama and Costanzino, Alex and Tosi, Fabio and Poggi, Matteo and Di Stefano, Luigi and Weibel, Jean-Baptiste and Antensteiner, Doris and Vincze, Markus and He, Jing and Wang, Yiqing and Zhang, Kexin and Jiao, Licheng and Li, Lingling and Liu, Fang and Ma, Wenping and Busam, Benjamin},
-	year         = 2025,
+	year         = {2025},
 	month        = {October},
-	booktitle    = {Proceedings of the IEEE/CVF International Conference on Computer Vision (ICCV) Workshops}
+	booktitle    = {Proceedings of the IEEE/CVF International Conference on Computer Vision (ICCV) Workshops},
+	pages        = {3323--3333}
 }
