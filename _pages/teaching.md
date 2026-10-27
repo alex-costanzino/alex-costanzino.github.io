@@ -2,28 +2,40 @@
 layout: page
 permalink: /teaching/
 title: Teaching
-description: Materials available on https://virtuale.unibo.it/.
+description:
 nav: true
 nav_order: 2
 ---
 
-## Academic Year 2025-2026
+## University of Bonn
+
+Materials available on https://hochschulcloud.nrw/.
+
+### Academic Year 2026-2027
+
+TBA
+
+## University of Bologna
+
+Materials available on https://virtuale.unibo.it/.
+
+### Academic Year 2025-2026
 
 * Image Processing and Computer Vision M [91254]
 * Computer Vision and Image Processing M [73302]
 * Image Processing and Computer Vision M [69661]
 
-## Academic Year 2024-2025
+### Academic Year 2024-2025
 
 * Image Processing and Computer Vision M [91254]
 
-## Academic Year 2023-2024
+### Academic Year 2023-2024
 
 * Image Processing and Computer Vision M [91254]
 * Computer Vision and Image Processing M [73302]
 * Image Processing and Computer Vision M [69661]
 
-## Academic Year 2022-2023
+### Academic Year 2022-2023
 
 * Computer Vision and Image Processing M [73302]
 * Image Processing and Computer Vision M [69661]
